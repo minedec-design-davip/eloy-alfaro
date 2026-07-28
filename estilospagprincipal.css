@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(ft4.png);
+    background-position: center;
+    background-size: 1700px 1200px;
+}
+
+.navegacion{
+    width: 850px;
+    margin: 30px auto;
+    background-color:white;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+header {
+    margin: 50px;;;
+    width:auto;
+    align-content:center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.menu > li {
+    /* float:left; */
+    display: inline-block;
+}
+
+.menu  li  a {
+    background-color:white;
+    color: #353535;
+    padding:20px 15px;
+    display:block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration:none;
+}
+
+.menu li a:hover {
+    color: red;
+    transition: all .3s;
+}
+
+.menu li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+    text-decoration: none;
+    color: #353535;
+}
+
+.menu li:hover > ul {
+    display:block;
+}
+
+.menu li ul li {
+    position:relative;
+}
+
+.menu li ul li ul {
+    right:-220px;
+    top:0px;
+}
+
+   /* ************************* */
+ .tabla{
+    text-align: left;
+   /* background: gainsboro;*/
+    font-family: 'Verdana';
+    background: rgb(212, 208, 208);
+ }
+.body1{
+    background-image: url(ft4.png);
+    background-position: center;
+    background-size: 2000px 1500px;
+}
+.body5{
+    background-image: url(ft4.png);
+    background-position: center;
+    background-size: 2000px 1500px;
+}
+.body7{
+    background-image: url(ft4.png);
+    background-position: center;
+    background-size: 2500px 3000px;   
+}
+.body11{
+    background-image: url(ft4.png);
+    background-position: center;
+    background-size: 2300px 2000px;      
+}
+.tabla2{
+    border-radius: 10px;
+    background: rgb(212, 208, 208);
+    border-color:rgb(212, 208, 208);
+}
+
+
