@@ -13,13 +13,14 @@ body {
 .container {
     display: flex;
     position: fixed;
-    top: 67%;
-    left: 35%;
-    transform: translate(-50%, -50%);
+    bottom: 15%;
+    right: 30px;
+    align-items: right;
     background: rgba(0, 0, 0, 0.4);
     padding: 5px 15px;
     border-radius: 10px;
     max-width: 200%;
+    z-index: 3;
 }
 
 .container h1 {
@@ -32,13 +33,15 @@ body {
 }
 
 .nxt-bt {  
-    margin-top: 34%;
+    position: absolute;
+    top: 30px;
+    right: 30px;
     padding: 25px 25px;
     background: url("../image/home-bt.png") no-repeat center, linear-gradient(135deg, #ff1e00, #d4d114d8);
     background-size: 36px, cover;
     color: white;
     border: none;
-    cursor: wait;
+    cursor: pointer;
     font-size: 20px;
     border-radius: 100px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -49,7 +52,7 @@ body {
     box-shadow: 0 0 20px rgba(255, 51, 0, 0.9);
 }
 
-/* Imagen escuela en HTML, abajo centrada y más pequeña */
+/* imagen institución en HTML, abajo centrada y más pequeña */
 .image-main {
     position: fixed;
     bottom: 30px;
