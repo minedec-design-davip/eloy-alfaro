@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Eloy Alfaro - El Viejo Luchador</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+/* MENU */
+
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:#222;
+    padding:15px;
+    text-align:center;
+    z-index:1000;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#e0b000;
+}
+
+
+/* PORTADA */
+
+.hero{
+
+    height:100vh;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,.55),
+        rgba(0,0,0,.55)
+    ),
+    url("ft4.png");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+    color:white;
+}
+
+
+.hero h1{
+    font-size:60px;
+}
+
+
+.hero p{
+    font-size:22px;
+    margin:20px;
+}
+
+
+.boton{
+
+    display:inline-block;
+    padding:15px 30px;
+    background:#c99b00;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+
+}
+
+
+/* SECCIONES */
+
+section{
+
+    padding:80px 10%;
+
+}
+
+
+h2{
+
+    text-align:center;
+    margin-bottom:30px;
+    color:#8b0000;
+
+}
+
+
+/* TARJETAS */
+
+.tarjetas{
+
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+
+}
+
+
+.card{
+
+    background:white;
+    width:300px;
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,.2);
+
+}
+
+
+.card h3{
+
+    color:#1565c0;
+    margin-bottom:15px;
+
+}
+
+
+/* GALERIA */
+
+.galeria{
+
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(250px,1fr));
+
+    gap:20px;
+
+}
+
+
+.galeria img{
+
+    width:100%;
+    border-radius:15px;
+
+}
+
+
+/* PIE */
+
+footer{
+
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:25px;
+
+}
+
+
+/* CELULARES */
+
+@media(max-width:700px){
+
+.hero h1{
+    font-size:38px;
+}
+
+nav a{
+
+    display:block;
+    margin:8px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<nav>
+
+<a href="#historia">Historia</a>
+<a href="#obras">Obras</a>
+<a href="#galeria">Galería</a>
+
+</nav>
+
+
+
+<section class="hero">
+
+<div>
+
+<h1>Eloy Alfaro</h1>
+
+<p>
+El Viejo Luchador<br>
+Líder de la Revolución Liberal del Ecuador
+</p>
+
+<a class="boton" href="#historia">
+Conocer más
+</a>
+
+</div>
+
+</section>
+
+
+
+<section id="historia">
+
+<h2>Historia</h2>
+
+<p>
+Eloy Alfaro fue un líder político y militar ecuatoriano.
+Impulsó la Revolución Liberal y realizó importantes
+transformaciones sociales, educativas y políticas en Ecuador.
+</p>
+
+</section>
+
+
+
+<section id="obras">
+
+<h2>Principales obras</h2>
+
+
+<div class="tarjetas">
+
+
+<div class="card">
+
+<h3>Ferrocarril</h3>
+
+<p>
+Impulsó la construcción del ferrocarril
+Quito - Guayaquil, una obra fundamental
+para la integración del país.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Educación</h3>
+
+<p>
+Promovió la educación pública y reformas
+que modernizaron el sistema educativo.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Revolución Liberal</h3>
+
+<p>
+Transformó la organización política y social
+del Ecuador.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+
+<section id="galeria">
+
+<h2>Galería</h2>
+
+
+<div class="galeria">
+
+<img src="ft4.png" alt="Eloy Alfaro">
+
+<img src="imagen2.png" alt="Historia">
+
+<img src="imagen3.png" alt="Monumento">
+
+</div>
+
+
+</section>
+
+
+
+<footer>
+
+<p>
+© 2026 - Página histórica de Eloy Alfaro
+</p>
+
+</footer>
+
+
+
+<script>
+
+window.onload=function(){
+
+console.log("Página cargada correctamente");
+
+}
+
+</script>
+
+
+</body>
+
+</html>
