@@ -13,18 +13,18 @@ body {
 .container {
     display: flex;
     position: fixed;
-    top: 70%;
-    left: 55%;
+    top: 67%;
+    left: 35%;
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, 0.4);
-    padding: 5px 20px;
+    padding: 5px 15px;
     border-radius: 10px;
     max-width: 200%;
 }
 
 .container h1 {
     margin: 0;
-    font-size: 30px;
+    font-size: 25px;
     /*color: #FFD700;*/
     color: #fbff00ec;
     font-weight: bold;
