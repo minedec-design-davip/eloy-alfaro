@@ -1,351 +1,84 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Eloy Alfaro - El Viejo Luchador</title>
-
-<style>
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-html{
-    scroll-behavior:smooth;
-}
-
-body{
-    background:#f4f4f4;
-    color:#333;
-}
-
-/* MENU */
-
-nav{
-    position:fixed;
-    top:0;
-    width:100%;
-    background:#222;
-    padding:15px;
-    text-align:center;
-    z-index:1000;
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:15px;
-    font-weight:bold;
-}
-
-nav a:hover{
-    color:#e0b000;
-}
-
-
-/* PORTADA */
-
-.hero{
-
-    height:100vh;
-
-    background:
-    linear-gradient(
-        rgba(0,0,0,.55),
-        rgba(0,0,0,.55)
-    ),
-    url("ft4.png");
-
-    background-size:cover;
-    background-position:center;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    text-align:center;
-    color:white;
-}
-
-
-.hero h1{
-    font-size:60px;
-}
-
-
-.hero p{
-    font-size:22px;
-    margin:20px;
-}
-
-
-.boton{
-
-    display:inline-block;
-    padding:15px 30px;
-    background:#c99b00;
-    color:white;
-    text-decoration:none;
-    border-radius:8px;
-
-}
-
-
-/* SECCIONES */
-
-section{
-
-    padding:80px 10%;
-
-}
-
-
-h2{
-
-    text-align:center;
-    margin-bottom:30px;
-    color:#8b0000;
-
-}
-
-
-/* TARJETAS */
-
-.tarjetas{
-
-    display:flex;
-    gap:20px;
-    justify-content:center;
-    flex-wrap:wrap;
-
-}
-
-
-.card{
-
-    background:white;
-    width:300px;
-    padding:25px;
-
-    border-radius:15px;
-
-    box-shadow:
-    0 5px 15px rgba(0,0,0,.2);
-
-}
-
-
-.card h3{
-
-    color:#1565c0;
-    margin-bottom:15px;
-
-}
-
-
-/* GALERIA */
-
-.galeria{
-
-    display:grid;
-    grid-template-columns:
-    repeat(auto-fit,minmax(250px,1fr));
-
-    gap:20px;
-
-}
-
-
-.galeria img{
-
-    width:100%;
-    border-radius:15px;
-
-}
-
-
-/* PIE */
-
-footer{
-
-    background:#222;
-    color:white;
-    text-align:center;
-    padding:25px;
-
-}
-
-
-/* CELULARES */
-
-@media(max-width:700px){
-
-.hero h1{
-    font-size:38px;
-}
-
-nav a{
-
-    display:block;
-    margin:8px;
-
-}
-
-}
-
-</style>
-
-</head>
-
-
-<body>
-
-
-<nav>
-
-<a href="#historia">Historia</a>
-<a href="#obras">Obras</a>
-<a href="#galeria">Galería</a>
-
-</nav>
-
-
-
-<section class="hero">
-
-<div>
-
-<h1>Eloy Alfaro</h1>
-
-<p>
-El Viejo Luchador<br>
-Líder de la Revolución Liberal del Ecuador
-</p>
-
-<a class="boton" href="#historia">
-Conocer más
-</a>
-
-</div>
-
-</section>
-
-
-
-<section id="historia">
-
-<h2>Historia</h2>
-
-<p>
-Eloy Alfaro fue un líder político y militar ecuatoriano.
-Impulsó la Revolución Liberal y realizó importantes
-transformaciones sociales, educativas y políticas en Ecuador.
-</p>
-
-</section>
-
-
-
-<section id="obras">
-
-<h2>Principales obras</h2>
-
-
-<div class="tarjetas">
-
-
-<div class="card">
-
-<h3>Ferrocarril</h3>
-
-<p>
-Impulsó la construcción del ferrocarril
-Quito - Guayaquil, una obra fundamental
-para la integración del país.
-</p>
-
-</div>
-
-
-
-<div class="card">
-
-<h3>Educación</h3>
-
-<p>
-Promovió la educación pública y reformas
-que modernizaron el sistema educativo.
-</p>
-
-</div>
-
-
-
-<div class="card">
-
-<h3>Revolución Liberal</h3>
-
-<p>
-Transformó la organización política y social
-del Ecuador.
-</p>
-
-</div>
-
-
-</div>
-
-</section>
-
-
-
-
-<section id="galeria">
-
-<h2>Galería</h2>
-
-
-<div class="galeria">
-
-<img src="ft4.png" alt="Eloy Alfaro">
-
-<img src="imagen2.png" alt="Historia">
-
-<img src="imagen3.png" alt="Monumento">
-
-</div>
-
-
-</section>
-
-
-
-<footer>
-
-<p>
-© 2026 - Página histórica de Eloy Alfaro
-</p>
-
-</footer>
-
-
-
-<script>
-
-window.onload=function(){
-
-console.log("Página cargada correctamente");
-
-}
-
-</script>
-
-
-</body>
-
+<html>
+    <head> <link rel="shortcut icon" href="estilos/favicon-modified.png"> </head>
+    <link type="text/css" href="estilos/estilospagprincipal.css" rel="stylesheet">
+    <img  src = "estilos/favicon-modified.png" align="left" height="140" width="140" >
+    <img  src = "estilos/logmini-removebg-preview.png" align="right" height="140" width="190"> </head>
+     <body class="body1">
+         <title>UNIDAD EDUCATIVA "ELOY ALFARO"</title>
+         <br>
+         <br>
+        <center><h2>UNIDAD EDUCATIVA "ELOY ALFARO"</center>
+             <tr>
+             </tr>
+ 
+             <header align="center">
+                <center><nav class="navegacion">
+                    <ul class="menu">  
+                                   
+                        <li><a href="index.html">INICIO</a>
+                            <ul class="submen">
+                               <li><a href="nuestro_patrono.html">NUESTRO PATRONO</a></li>
+                               <li><a href="vida institucional.html">VIDA INSTITUCIONAL</a></li>
+                               <li><a href="Vision.html">VISION</a></li>
+                               <li><a href="Mision.html">MISION</a></li>
+                            </ul> 
+                     </li>
+                     <li><a>COMUNIDAD EDUCATIVA</a>
+                        <ul class="submen">
+                           <li><a href="autoridades.html">AUTORIDADES</a></li>
+                           <li><a href="administrativo.html">ADMINISTRATIVO</a></li>
+                           <li><a>SUBNIVELES</a>
+                                <ul class="submenu2">
+                                    <li><a href="inicial.html">INICIAL I Y II</a></li>
+                                    <li><a href="preparatoria.html">PREPARATORIA</a></li>
+                                    <li><a href="elemental.html">ELEMENTAL</a></li>
+                                    <li><a href="media.html">MEDIA</a></li>
+                                    <li><a href="superiorybachillerato.html">SUPERIOR Y BACHILLETARO</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="consejo.html">CONSEJO ESTUDIANTIL</a></li>
+                        </ul> 
+                    </li>
+                        <li><a> FORMACION</a>
+                            <ul class="submenu2">
+                                <li><a href="formacion_inicial.html">INICIAL I Y II</a></li>
+                                <li><a href="formacion_egb.html">EGB</a></li>
+                                <li><a href="formacion_bt.html">BACHILLERATO TECNICO</a></li>
+                            </ul>
+                        </li>
+                        <li><a>INFRAESTRUCTURA</a>
+                            <ul class="submenu2">
+                                <li><a href="interna.html">INTERNA</a></li>
+                                <li><a href="externa.html">EXTERNA</a></li>
+                            </ul>
+                        </li>
+                               <li><a>GALERIA</a>
+                                <ul class="submenu">
+                                    <li><a href="social.html">AMBITO SOCIAL</a></li>
+                                    <li><a href="cultural.html">AMBITO CULTURAL</a></li>
+                                    <li><a href="educativo.html">AMBITO EDUCATIVO</a></li>
+                                    <li><a href="deportivo.html">AMBITO DEPORTIVO</a></li>
+                                </ul> 
+                            </li>           
+                     <li><a href="Ubicacion.html">UBICACION</a></li>
+                    </ul>
+                </nav></center>
+            </header>
+            <br>
+        <h2><center>NUESTRO PATRONO</center></h2>
+        <br>
+        <center><table border="0px" align="center" width="600"class="tabla">
+         <tr>
+       <td><p align="justify">Oportunidad por razones políticas de vivir muchos años fuera del país, el conocimiento de una realidad internacional y las dificultades que tuvo que vivir, ayudaron sin duda en su formación de una sólida personalidad.</p>
+        <br>
+        <p align="justify">Eloy Alfaro fue un joven rebelde influenciado por las ideas de la Revolución Francesa : «libertad, igualad y fraternidad» que tuvieron mucha influencia en el siglo XIX , él nació bajo la vigencia de esas ideas, dedicó su vida a luchar contra el abuso, la corrupción, el fanatismo y las injusticias de los gobiernos conservadores que dominaban el Ecuador en aquella época.</p>
+        <br>
+        <p align="justify">Ello lo llevó a rebelarse y a emprender una lucha que la comenzó a los 22 años para combatir esta clase de gobiernos que él reprochaba. Su lucha le hizo ganar simpatías sobre todo en los sectores campesinos que lo apoyaban y la justicia de su enfrentamiento contra los gobiernos de turno hizo que a su causa se unieran distintos sectores sociales; por eso lo apoyaron los grandes hacendados, los pequeños y medianos productores y comerciantes, amplios sectores del campo, incluyendo en ese apoyo personas de creencias católicas, es decir fue una lucha convocante de gente honesta sobre todo de la región donde el hizo su base de combate, las provincias de Manabí y Esmeraldas.</p>
+        <br>
+        <p align="justify">En 1897 se proclamó el laicismo en la educación, mediante la Ley de Instrucción Pública que puso la enseñanza bajo el control del Estado. Tres años más tarde se creó el Registro Civil y en 1902 se expidió la Ley de Matrimonio Civil, norma que incluyó la legalización de los divorcios.</p>
+        
+       </table></center>
+       <br>
+       <center><img src="imagenes/c_educativa/Eloy Alfaro 1.jpeg" width="300px" height="300px"></center>
+    </body>
 </html>
